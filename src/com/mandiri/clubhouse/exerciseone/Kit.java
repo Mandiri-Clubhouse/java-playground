@@ -1,11 +1,11 @@
-package com.mandiri.clubhouse.exerciseOne;
+package com.mandiri.clubhouse.exerciseone;
 
 /**
  * interface digunakan untuk mendifinisikan method abstrak
  * kelas yang mengimplement interface wajib meng override method yang telah di definisikan pada interface
  * */
 
-interface Engine {
-    String isRaceEngine(boolean state);
-    void runPedals();
+interface Kit {
+    void turnCompass(Boolean state);
+    void turnOnLights(Boolean state);
 }
