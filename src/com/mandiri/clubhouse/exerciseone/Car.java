@@ -1,7 +1,7 @@
 package com.mandiri.clubhouse.exerciseone;
 
 /**
- * contoh polymor
+ * contoh inheritance
  * */
 
 public class Car extends SpecialKit implements Kit {
